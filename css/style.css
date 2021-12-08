@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/Trains_Closeup_Wheel_475023_3840x2400.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  position: relative;
+}
+.header-container::before {
+  content: " ";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header {
+  width: 1200px;
+  padding-top: 60px;
+  font-size: 18px;
+  position: relative;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+.navigation li {
+  padding: 0 15px;
+}
+.header-content {
+  padding-top: 220px;
+  padding-bottom: 220px;
+}
+
+h1 {
+  background: linear-gradient(25deg, #fff, #000 150%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+.main-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main{
+  width: 1200px;
+  margin-top: 60px;
+}
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.section-title{
+  width: 700px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h2{
+  margin: 0;
+}
+section ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+section li{
+  width: 30%;
+  height: 230px;
+  margin: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.span-number{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 5px;
+}
+.slider{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.slider-item{
+  height: 330px;
+  display: none;
+  flex: 0 0 80%;
+  justify-content: space-between;
+  line-height: 24px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.slider-item_active{
+  display: flex;
+}
+.item-column{
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-item img{
+  width: 100%;
+}
+.slider-arrows{
+  font-size: 4em;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 40%;
+}
+.slider-arrow{
+  cursor: pointer;
+}
+.map-container{
+  text-align: center;
+  margin-top: 60px;
+}
+iframe{
+  width: 1200px;
+  height: 600px;
+}
+.footer-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+}
+footer{
+  width: 1200px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+footer ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+footer a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
